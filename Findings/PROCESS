@@ -1,0 +1,21 @@
+#HOW DID I APPROACH THE NODE CLASSIFICATION PROBLEM?
+
+THIS IS THE FIRST DATASET IVE APPLIED GAT :
+CALLED THE CITESEER DATASET (uploaded the dataset incase needed)
+Preprocessed the data in citeseer for node classification
+Ensured that the adjacency matrix, feature matrix and labels created where consistent
+Prepared the data for training on GAT 
+Trained the data and obtained the accuracy level
+Adjusted the optimizers and no of epochs and observed their influence
+Got an accuracy of  app. 97%
+
+
+THIS IS THE SECOND DATASET IVE APPLIED GAT:
+CALLED THE CORA DATASET (uploaded that too)
+Preprocessed the data for node classification
+Ensured that the adjacency matrix, feature matrix and labels were aligned
+Prepared the data for GAT training 
+Trained and obtained the accuracy level
+Focused more on increasing the no of hidden layers tho did change the no of epochs and adjusted for different values in the dropout rate
+An increase in the no of layers improved the accuracy significantly
+Got an accuracy of 99.45%
