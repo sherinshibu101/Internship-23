@@ -1,21 +1,20 @@
-#HOW DID I APPROACH THE NODE CLASSIFICATION PROBLEM?
+# Approach to Node Classification Using Graph Attention Networks (GAT)
 
-THIS IS THE FIRST DATASET IVE APPLIED GAT :
-CALLED THE CITESEER DATASET (uploaded the dataset incase needed)
-Preprocessed the data in citeseer for node classification
-Ensured that the adjacency matrix, feature matrix and labels created where consistent
-Prepared the data for training on GAT 
-Trained the data and obtained the accuracy level
-Adjusted the optimizers and no of epochs and observed their influence
-Got an accuracy of  app. 97%
+### Dataset 1: CiteSeer
+- **Objective:** Applied GAT on the CiteSeer dataset for node classification.
+- **Steps:**
+  - Preprocessed the dataset for consistency in the adjacency matrix, feature matrix, and labels.
+  - Prepared the data for GAT training.
+  - Trained the model and obtained accuracy.
+  - Experimented with optimizers and the number of epochs to observe their effects.
+  - **Result:** Achieved an accuracy of approximately 97%.
 
+### Dataset 2: Cora
+- **Objective:** Applied GAT on the Cora dataset for node classification.
+- **Steps:**
+  - Preprocessed the dataset ensuring alignment of the adjacency matrix, feature matrix, and labels.
+  - Prepared the data for GAT training.
+  - Trained the model and monitored accuracy.
+  - Focused on increasing the number of hidden layers, while also experimenting with different epoch counts and dropout rates.
+  - **Result:** Achieved an accuracy of 99.45%.
 
-THIS IS THE SECOND DATASET IVE APPLIED GAT:
-CALLED THE CORA DATASET (uploaded that too)
-Preprocessed the data for node classification
-Ensured that the adjacency matrix, feature matrix and labels were aligned
-Prepared the data for GAT training 
-Trained and obtained the accuracy level
-Focused more on increasing the no of hidden layers tho did change the no of epochs and adjusted for different values in the dropout rate
-An increase in the no of layers improved the accuracy significantly
-Got an accuracy of 99.45%
